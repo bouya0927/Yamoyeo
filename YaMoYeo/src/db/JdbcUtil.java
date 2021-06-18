@@ -13,7 +13,7 @@ public class JdbcUtil {
 		
 		try {
 			Context initCtx = new InitialContext();
-			// context의 초기의 설정값이 담겨있는 객체를 생성ㅎㄴ다.
+			// context의 초기의 설정값이 담겨있는 객체를 생성합니다.
 			// 연결하고자 하는 DB가 아닌 기존 자바에 설정되어 있는 초기 설정값
 						
 			Context envCtx = (Context)initCtx.lookup("java:comp/env");
